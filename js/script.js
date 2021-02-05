@@ -1,4 +1,4 @@
-//Signup function
+//function allows to create user account
 function signup() {
   var firstName = document.getElementById("firstName").value;
   var verifFirstName = verifLength(firstName, 3);
